@@ -7,7 +7,7 @@
   <reference id="base">
     <title>All transformations</title>
     <titlealts>
-      <navtitle>All transformations test</navtitle>
+      <navtitle>All transformations testing</navtitle>
     </titlealts>
     <shortdesc conaction="pushreplace" conref="parameters-base.dita#base/shortdesc">Certain parameters apply to all
       transformations that DITA Open Toolkit supports.</shortdesc>
