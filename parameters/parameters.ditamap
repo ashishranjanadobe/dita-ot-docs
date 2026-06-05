@@ -9,7 +9,7 @@
     <topicref keyref="parameters-pdf"/>
     <topicref keyref="parameters-base-html"/>
     <topicref keyref="parameters-html5"/>
-    <topicref keyref="parameters-xhtml"/>
+    <topicref keyref="parameters-xhtml-test"/>
     <topicref keyref="parameters-htmlhelp" locktitle="yes" platform="windows">
       <topicmeta>
         <navtitle>HTML Help</navtitle>
