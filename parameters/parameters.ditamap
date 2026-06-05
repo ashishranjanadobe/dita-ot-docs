@@ -22,7 +22,7 @@
   <topicref keyref="configuration-properties">
     <topicref keyref="dot-ditaotrc-file"/>
     <topicref keyref="local-properties-file"/>
-    <topicref keyref="plugin-properties-file"/>
+    <topicref keyref="plugin-properties-file-test"/>
     <topicref keyref="configuration-properties-file"/>
     <topicref keyref="internal-ant-properties"/>
   </topicref>
