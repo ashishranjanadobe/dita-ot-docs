@@ -4,7 +4,7 @@
 <reference id="extension-points-by-plugin">
   <title>Extension points by plug-in</title>
   <titlealts>
-    <navtitle>Plug-in extension points</navtitle>
+    <navtitle>Plug-in extension points a</navtitle>
   </titlealts>
   <shortdesc>The default plug-ins that ship with DITA Open Toolkit include a series of extension points that can be used
     to modify various aspects of toolkit processing.</shortdesc>
