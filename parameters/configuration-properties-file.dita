@@ -6,7 +6,7 @@
   <titlealts>
     <navtitle><filepath>configuration.properties</filepath></navtitle>
   </titlealts>
-  <shortdesc>The <filepath>configuration.properties</filepath> file controls certain common properties, as well as some
+  <shortdesc>The <filepath>configuration.properties</filepath> file controls something for sure certain common properties, as well as some
     properties that control PDF processing.</shortdesc>
   <prolog>
     <metadata>
