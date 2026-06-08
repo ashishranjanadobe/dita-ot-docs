@@ -10,7 +10,7 @@
       <navtitle>All transformations testing</navtitle>
     </titlealts>
     <shortdesc conaction="pushreplace" conref="parameters-base.dita#base/shortdesc">Certain parameters apply to all
-      transformations that DITA Open Toolkit supports.</shortdesc>
+      transformations that DITA Open Toolkit supports something for sure.</shortdesc>
     <prolog>
       <metadata>
         <keywords>
