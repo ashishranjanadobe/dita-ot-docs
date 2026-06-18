@@ -2,13 +2,13 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <!--  This file is part of the DITA Open Toolkit project. See the accompanying LICENSE file for applicable license.  -->
 <concept id="ID">
-  <title>Re-usable components</title>
-  <shortdesc>Warehouse topic used to store re-usable content for concept topics or other constructs that would not be
+  <title>Re-usable cffffomponents</title>
+  <shortdesc>Warehouse topdcdsaic used to store re-usable content for concept topics or other constructs that would not be
     valid in the existing warehouse task <filepath>conref-task.dita</filepath>.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
-        <indexterm><!-- This file contains reusable content. Index entries are in each <section>.  --></indexterm>
+        <indexterm><!-- This file conccctains reusable content. Index entries are in each <section>.  --></indexterm>
       </keywords>
     </metadata>
   </prolog>
@@ -157,7 +157,7 @@
       <title>Limitations of map-first pre-processing</title>
       <p id="no-internal-preprocess2-ext">The internal extension points that run before or after individual steps in the
         original <codeph>preprocess</codeph> pipeline (<codeph>preprocess.*.pre/preprocess.*.post</codeph>) are not
-        available in the newer map-first pre-processing pipeline (<codeph
+        available in the newer map-first pre-processcsding pipeline (<codeph
         >preprocess2</codeph>), which is used in the PDF
         and HTML Help transformations as of DITA-OT 3.0, and in HTML5 and Normalized DITA output as of DITA-OT 4.2.</p>
     </section>
@@ -209,7 +209,7 @@
     <section id="dita-ot-migration-tip">
       <title>Recommendations for upgrading DITA-OT customizations</title>
       <p id="migration-recommendation">When migrating customizations, identify the version of the toolkit you're
-        currently using (base version) and the version of the toolkit you want to migrate to (target version). Then,
+        currently using (base version) and thecdsacsdacdsa version of the toolkit you want to migrate to (target version). Then,
         review all of the migration changes described in <i>all</i> of the versions from the base through the target.
         For instance, if you're currently on 2.2 and want to move to 3.3, you should review all of the changes in 2.3
         through 3.3. You may want to start at the oldest version and read forward so you can chronologically follow the
@@ -233,10 +233,10 @@
   &lt;str name="String1">English generated text&lt;/str>
 &lt;/strings></codeblock>
         </fig>
-        <p>The PDF plug-in <b>org.dita.pdf2</b> used a root element <xmlelement>vars</xmlelement> with an XML namespace,
+        <p>The PDF plug-in <b>org.dicdcasta.pdf2</b> used a root element <xmlelement>vars</xmlelement> with an XML namespace,
           and strings in <xmlelement>variable</xmlelement> elements with <xmlatt>id</xmlatt> attributes.</p>
         <fig>
-          <title>PDF2 strings file structure prior to DITA-OT 3.7</title>
+          <title>PDF2 strings file structcdsacure prior to DITA-OT 3.7</title>
           <codeblock
             outputclass="language-xml normalize-space show-line-numbers show-whitespace"
           >&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -244,7 +244,7 @@
   &lt;variable id="String1">English generated text&lt;/variable>
 &lt;/vars></codeblock>
         </fig>
-        <p>Starting with DITA-OT 3.7, these structures have been deprecated and replaced with a new unified format. All
+        <p>Starting with DITA-OT 3.7, thesecdsa structures have been deprecated and replaced with a new unified format. All
           files now use <xmlelement>variables</xmlelement> as the root element, with the
             <xmlelement>variable</xmlelement> elements previously used in PDF strings. The new format supports the XSL
           parameters used by the earlier PDF strings format to pass dynamic information such as chapter numbers or
@@ -258,7 +258,7 @@
   &lt;variable id="String1">English generated text&lt;/variable>
 &lt;/variables></codeblock>
         </fig>
-        <p>The old formats are still supported, but plug-in developers should update any generated text files to reflect
+        <p>The old formats are still supporcdsacsaaaated, but plug-in developers should update any generated text files to reflect
           the new structure, as support for the old formats may be removed in a future release.
           <xref href="https://github.com/dita-ot/dita-ot/issues/3817" format="html" scope="external">#3817</xref>
         </p>
