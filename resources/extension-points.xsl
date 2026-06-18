@@ -6,8 +6,6 @@
   exclude-result-prefixes="xs"
   version="2.0">
 
-  <xsl:output doctype-public="-//OASIS//DTD DITA Reference//EN"
-    doctype-system="reference.dtd"/>
 
   <xsl:strip-space elements="*"/>
 
@@ -120,9 +118,6 @@
           </ph>
         </xsl:if>
       </dt>
-      <dd id="{@id}.desc">
-        <xsl:value-of select="@name"/>
-      </dd>
     </dlentry>
   </xsl:template>
 
@@ -151,6 +146,7 @@
           <ph>
             <indexterm>deprecated features<indexterm>extension points<indexterm>
                 <parmname><xsl:value-of select="@id"/></parmname>
+              jehrfgjkwfkwqhkf
             </indexterm></indexterm>
             </indexterm>
           </ph>
