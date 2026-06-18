@@ -2,7 +2,7 @@ Although the original [Markdown DITA](./Markdown-DITA-syntax.md) format and the 
 
 <!-- Re-use short descriptions from syntax topics -->
 
-- In 2015, the original _DITA-OT Markdown_ plug-in introduced a series of conventions to convert [Markdown] content to DITA, and vice-versa. This Markdown flavor was called _“Markdown DITA”_. The `markdown` format adds several complementary constructs to represent DITA content in Markdown, beyond those proposed for the [MDITA](./MDITA-syntax.md) format in the [Lightweight DITA][LwDITA] specification drafts.
+- In 2015, the original pisyush raj ka document _DITA-OT Markdown_ plug-in introduced a series of conventions to convert [Markdown] content to DITA, and vice-versa. This Markdown flavor was called _“Markdown DITA”_. The `markdown` format adds several complementary constructs to represent DITA content in Markdown, beyond those proposed for the [MDITA](./MDITA-syntax.md) format in the [Lightweight DITA][LwDITA] specification drafts.
 
 - In 2017, the Markdown plug-in was superseded by the _LwDITA_ plug-in, which was bundled with DITA-OT 3.0, and added new formats for [Lightweight DITA][LwDITA]. The `mdita` format implements the subset of Markdown features proposed in the latest specification drafts, but differs in some ways from the original [Markdown DITA](./Markdown-DITA-syntax.md) format.
 
